@@ -6,14 +6,32 @@
     <title>My Tweets</title>
 </head>
 <body>
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Example of embedded tweet! <a href="https://twitter.com/hashtag/HTML?src=hash&amp;ref_src=twsrc%5Etfw">#HTML</a> <a href="https://twitter.com/hashtag/WebDevelopment?src=hash&amp;ref_src=twsrc%5Etfw">#WebDevelopment</a></p>
-        &mdash; Twitter Example (@example) <a href="https://twitter.com/example/status/123456789?ref_src=twsrc%5Etfw">Month Day, Year</a>
-    </blockquote> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <!-- Link back to homepage -->
-    <p><a href="base_index.html">← Back to Homepage</a></p>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <article>
+            <blockquote class="twitter-tweet" data-lang="en">
+                <p lang="en" dir="ltr">This is an example tweet for my HTML project! 
+                <a href="https://twitter.com/hashtag/HTML?src=hash">#HTML</a> 
+                <a href="https://twitter.com/hashtag/Coding?src=hash">#Coding</a></p>
+                &mdash; HTML Learner (@htmllerner) 
+                <a href="https://twitter.com/htmllerner/status/1234567890123456789">January 1, 2023</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+        
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+    
+    <footer>
+        <p>Made by Your Name - <a href="https://example.com" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
